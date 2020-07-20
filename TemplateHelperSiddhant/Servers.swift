@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class ServerName {
+public class ServerName{
     
     public init(){}
     
@@ -18,3 +18,6 @@ public class ServerName {
         return "Server name is \(name)"
     }
 }
+
+
+
