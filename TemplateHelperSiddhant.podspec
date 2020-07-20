@@ -1,17 +1,42 @@
-Pod::Spec.new do |spec|
+#
+# Be sure to run `pod lib lint TemplateHelperSiddhant.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
 
-  spec.name         = "TemplateHelperSiddhant"
-  spec.version      = "0.0.2"
-  spec.summary      = "Static Library for TemplateHelperSiddhant"
-  spec.description  = "Static Library for TemplateHelperSiddhant. Its build in Swift"
-  spec.homepage     = "https://github.com/SiddhantVmax/TemplateHelperSiddhant"
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author       = { "Siddhant Nigam" => "siddhant.n@vserv.com" }
-  spec.source       = { :http => "https://github.com/SiddhantVmax/TemplateHelperSiddhant/archive/0.0.2.zip", }
-  spec.platform     = :ios, "8.0"
-  spec.source_files  = "TemplateHelperSiddhant/Classes/**/*"
+Pod::Spec.new do |s|
+  s.name             = 'TemplateHelperSiddhant'
+  s.version          = '0.0.3'
+  s.summary          = 'TemplateHelperSiddhant TemplateHelperSiddhant.'
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
+
+  s.homepage         = 'https://github.com/siddhant.n@vmax.com/TemplateHelperSiddhant'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'siddhant.n@vmax.com' => 'siddhant.n@vmax.com' }
+  s.source           = { :git => 'https://github.com/siddhant.n@vmax.com/TemplateHelperSiddhant.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.ios.deployment_target = '8.0'
+
+  s.source_files = 'TemplateHelperSiddhant/Classes/**/*'
   
- 
+  # s.resource_bundles = {
+  #   'TemplateHelperSiddhant' => ['TemplateHelperSiddhant/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end
-
-
