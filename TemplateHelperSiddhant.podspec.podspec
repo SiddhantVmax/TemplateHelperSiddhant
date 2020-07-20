@@ -4,15 +4,15 @@ Pod::Spec.new do |spec|
 
   
 
-  spec.name         = "TemplateHelperSiddhant.podspec"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of TemplateHelperSiddhant.podspec."
+  spec.name         = "TemplateHelperSiddhant"
+  spec.version      = "0.0.4"
+  spec.summary      = "siddhant demo frame work for something good yo it will be good"
 
   
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/TemplateHelperSiddhant.podspec"
+  spec.homepage     = "https://github.com/SiddhantVmax/TemplateHelperSiddhant"
   
 
 
@@ -27,12 +27,12 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :git => "http://EXAMPLE/TemplateHelperSiddhant.podspec.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/SiddhantVmax/TemplateHelperSiddhant.git", :tag => "0.0.4" }
 
 
   
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "TemplateHelperSiddhant"
   spec.exclude_files = "Classes/Exclude"
 
   
