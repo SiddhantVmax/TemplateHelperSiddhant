@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Siddhant Nigam" => "siddhant.n@vserv.com" }
   spec.source       = { :http => "https://github.com/SiddhantVmax/TemplateHelperSiddhant/archive/0.0.1.zip", }
   spec.platform     = :ios, "8.0"
-  spec.source_files  = "TemplateHelpers/Classes/**/*"
+  spec.source_files  = "TemplateHelperSiddhant/Classes/**/*"
   
  
 end
