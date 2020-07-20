@@ -9,20 +9,19 @@ Pod::Spec.new do |spec|
   spec.summary      = "siddhant demo frame work for something good yo it will be good"
 
   
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "siddhant demo frame work for something good yo it will be good warmane lovers"
 
   spec.homepage     = "https://github.com/SiddhantVmax/TemplateHelperSiddhant"
   
 
 
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
 
 
   
 
-  spec.author             = { "siddhant nigam" => "siddhant.n@vmax.com" }
+  spec.author       = { "siddhant nigam" => "siddhant.n@vmax.com" }
  
 
 
