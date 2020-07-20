@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char TemplateHelperSiddhantVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <TemplateHelperSiddhant/PublicHeader.h>
 
 
+#import "VMaxAdView.h"

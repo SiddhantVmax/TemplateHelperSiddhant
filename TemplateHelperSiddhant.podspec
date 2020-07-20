@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "TemplateHelperSiddhant"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "siddhant demo frame work for something good yo it will be good"
 
   
@@ -22,11 +22,11 @@ Pod::Spec.new do |spec|
   
 
   spec.author       = { "siddhant nigam" => "siddhant.n@vmax.com" }
-    spec.platform = :ios, "8.0"
+    spec.platform = :ios, "12.0"
 
 
 
-  spec.source       = { :git => "https://github.com/SiddhantVmax/TemplateHelperSiddhant.git", :tag => "0.0.6" }
+  spec.source       = { :git => "https://github.com/SiddhantVmax/TemplateHelperSiddhant.git", :tag => "0.0.7" }
 
 
   

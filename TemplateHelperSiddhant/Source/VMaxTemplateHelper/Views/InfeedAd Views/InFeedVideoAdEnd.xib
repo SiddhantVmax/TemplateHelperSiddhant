@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InFeedViewAdEnd" customModule="IMASample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1D-aC-sLK">
+                    <rect key="frame" x="103.5" y="190.5" width="93.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r8g-v6-Hhk">
+                    <rect key="frame" x="118" y="110.5" width="64" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="XZ0-o5-0Rc"/>
+                        <constraint firstAttribute="height" constant="64" id="iGu-GK-rhM"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bigger, Better, Burger King, Eat Like king. Not Like clown." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NI8-RD-rbx">
+                    <rect key="frame" x="20" y="226" width="260" height="31.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hU-U6-4fE">
+                    <rect key="frame" x="10" y="289.5" width="280" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="9eO-zM-ecl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <state key="normal" title="Install Now">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="ctaButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Tdh-4U-D4n"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Km-qB-bYT">
+                    <rect key="frame" x="10" y="340.5" width="280" height="27"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                    <state key="normal" title="Replay">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="replayAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="wVe-j5-DaM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="0Km-qB-bYT" firstAttribute="trailing" secondItem="7hU-U6-4fE" secondAttribute="trailing" id="17w-PV-7xB"/>
+                <constraint firstItem="7hU-U6-4fE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="2bY-zS-05u"/>
+                <constraint firstItem="NI8-RD-rbx" firstAttribute="top" secondItem="T1D-aC-sLK" secondAttribute="bottom" constant="16" id="CaB-ty-2aT"/>
+                <constraint firstItem="7hU-U6-4fE" firstAttribute="top" secondItem="NI8-RD-rbx" secondAttribute="bottom" constant="32" id="PhQ-oj-iRx"/>
+                <constraint firstItem="T1D-aC-sLK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YPN-tC-CkY"/>
+                <constraint firstItem="0Km-qB-bYT" firstAttribute="top" secondItem="7hU-U6-4fE" secondAttribute="bottom" constant="16" id="ZFx-Ic-EGR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NI8-RD-rbx" secondAttribute="trailing" constant="20" id="ZM1-3N-7uN"/>
+                <constraint firstItem="r8g-v6-Hhk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Zya-W8-iff"/>
+                <constraint firstItem="0Km-qB-bYT" firstAttribute="leading" secondItem="7hU-U6-4fE" secondAttribute="leading" id="b6Z-po-A39"/>
+                <constraint firstItem="T1D-aC-sLK" firstAttribute="top" secondItem="r8g-v6-Hhk" secondAttribute="bottom" constant="16" id="e7y-8D-cbm"/>
+                <constraint firstItem="NI8-RD-rbx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="l51-2e-urz"/>
+                <constraint firstItem="T1D-aC-sLK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="rSU-22-0Y6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7hU-U6-4fE" secondAttribute="trailing" constant="10" id="sQc-KN-5Hz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="brandName" destination="T1D-aC-sLK" id="P4x-IE-asa"/>
+                <outlet property="ctaButton" destination="7hU-U6-4fE" id="jik-c2-KMh"/>
+                <outlet property="descriptionButton" destination="NI8-RD-rbx" id="ygM-qM-xCP"/>
+                <outlet property="iconImage" destination="r8g-v6-Hhk" id="M0i-za-vF7"/>
+                <outlet property="replayButton" destination="0Km-qB-bYT" id="Kmt-m8-Brq"/>
+            </connections>
+        </view>
+    </objects>
+</document>
