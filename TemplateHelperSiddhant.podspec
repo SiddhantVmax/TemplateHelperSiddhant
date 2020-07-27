@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "TemplateHelperSiddhant"
-  spec.version      = "0.0.10"
+  spec.version      = "0.0.11"
   spec.summary      = "siddhant demo frame work for something good yo it will be good"
 
   
@@ -26,14 +26,13 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :git => "https://github.com/SiddhantVmax/TemplateHelperSiddhant.git", :tag => "0.0.10" }
+  spec.source       = { :git => "https://github.com/SiddhantVmax/TemplateHelperSiddhant.git", :tag => "0.0.11" }
 
 
   
 
   spec.source_files  = "TemplateHelperSiddhant"
   
-  spec.exclude_files = "Classes/Exclude"
 
   
 
