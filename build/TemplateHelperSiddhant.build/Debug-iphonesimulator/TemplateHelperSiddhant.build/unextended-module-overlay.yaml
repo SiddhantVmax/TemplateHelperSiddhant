@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/admin_vserv/Library/Developer/Xcode/DerivedData/TemplateHelperSiddhant-hlarqrvofagfqgdkwpokvnzdxwkl/Build/Products/Debug-iphonesimulator/TemplateHelperSiddhant.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/admin_vserv/zee/TemplateHelperSiddhant/build/TemplateHelperSiddhant.build/Debug-iphonesimulator/TemplateHelperSiddhant.build/unextended-module.modulemap",
+    }]
+  }]
+}

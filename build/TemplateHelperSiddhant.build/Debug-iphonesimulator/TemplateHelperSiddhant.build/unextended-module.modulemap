@@ -1,0 +1,10 @@
+framework module TemplateHelperSiddhant {
+  umbrella header "TemplateHelperSiddhant.h"
+
+  export *
+  module * { export * }
+}
+
+module TemplateHelperSiddhant.__Swift {
+    exclude header "TemplateHelperSiddhant-Swift.h"
+}

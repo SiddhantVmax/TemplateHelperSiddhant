@@ -12,13 +12,24 @@ import Foundation
     @objc(sharedInstance) public static let shared: VMaxtemplateHelper = VMaxtemplateHelper()
     
     public override init() {
+        
         let vmaxFactory = VmaxAdFactory.getInstance() as? VmaxAdFactory
-        vmaxFactory?.addTemplate("In-Feed Video Ad Template", adData: "infeedAds")
-        print(vmaxFactory?.appTemplateList)
+//        vmaxFactory?.addTemplate("In-Feed Video Ad Template", adData: "infeedAd")
+//        vmaxFactory?.addTemplate("Interstitial Image Template", adData: "InterstitialImage")
+//
+//        print(vmaxFactory?.appTemplateList)
+        let dict = ["In-Feed Video Ad Template":"infeedAd",
+                    "Interstitial Image Template":"InterstitialImage",
+                    "Interstitial Video Template":"InterstitialVideo"]
+        
+        print(dict as NSDictionary)
+        vmaxFactory?.setTemplate(dict)
     }
     
     @objc public func registerTemplate() {
         let vmaxFactory = VmaxAdFactory.getInstance() as? VmaxAdFactory
         vmaxFactory?.addTemplate("In-Feed Video Ad Template", adData: "infeedAds")
     }
+    
+   
 }

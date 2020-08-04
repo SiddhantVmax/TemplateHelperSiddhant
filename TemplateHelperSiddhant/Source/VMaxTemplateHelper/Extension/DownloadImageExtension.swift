@@ -1,10 +1,4 @@
-//
-//  DownloadImageExtension.swift
-//  IMASample
-//
-//  Created by admin_vserv on 09/06/20.
-//  Copyright © 2020 kaltura. All rights reserved.
-//
+
 
 import Foundation
 

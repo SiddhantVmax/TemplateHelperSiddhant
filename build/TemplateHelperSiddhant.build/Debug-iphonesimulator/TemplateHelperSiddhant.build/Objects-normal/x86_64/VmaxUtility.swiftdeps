@@ -1,0 +1,231 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VmaxUtility"
+provides-nominal:
+- "22TemplateHelperSiddhant11VmaxUtilityV"
+provides-member:
+- ["22TemplateHelperSiddhant11VmaxUtilityV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "Ctabuttoncolorstyle"
+- "FloatLiteralType"
+- !private "InfeedAds"
+- "Int"
+- "IntegerLiteralType"
+- !private "InterstitialImagesViewController"
+- "String"
+- "StringLiteralType"
+- "UIButton"
+- !private "UIImage"
+- "UIView"
+- "VmaxUtility"
+depends-member:
+- !private ["So8NSBundleC", "init"]
+- !private ["So15CALayerDelegateP", "setBackgroundImage"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setBackgroundImage"]
+- ["22TemplateHelperSiddhant19CtabuttoncolorstyleO", "greenAndBlue"]
+- ["22TemplateHelperSiddhant19CtabuttoncolorstyleO", "greenAndYellow"]
+- ["22TemplateHelperSiddhant19CtabuttoncolorstyleO", "orangeAndYellow"]
+- ["22TemplateHelperSiddhant19CtabuttoncolorstyleO", "purpleAndBlue"]
+- ["22TemplateHelperSiddhant19CtabuttoncolorstyleO", "purpleAndOrange"]
+- ["22TemplateHelperSiddhant19CtabuttoncolorstyleO", "redAndPurple"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setBackgroundImage"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setBackgroundImage"]
+- ["SQ", "greenAndBlue"]
+- ["SQ", "greenAndYellow"]
+- !private ["SQ", "init"]
+- !private ["SQ", "normal"]
+- ["SQ", "orangeAndYellow"]
+- ["SQ", "purpleAndBlue"]
+- ["SQ", "purpleAndOrange"]
+- ["SQ", "redAndPurple"]
+- !private ["SQ", "setBackgroundImage"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- ["SH", "greenAndBlue"]
+- ["SH", "greenAndYellow"]
+- !private ["SH", "init"]
+- ["SH", "orangeAndYellow"]
+- ["SH", "purpleAndBlue"]
+- ["SH", "purpleAndOrange"]
+- ["SH", "redAndPurple"]
+- !private ["SH", "setBackgroundImage"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setBackgroundImage"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "setBackgroundImage"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "setBackgroundImage"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s9OptionSetP", "normal"]
+- ["SY", "greenAndBlue"]
+- ["SY", "greenAndYellow"]
+- !private ["SY", "normal"]
+- ["SY", "orangeAndYellow"]
+- ["SY", "purpleAndBlue"]
+- ["SY", "purpleAndOrange"]
+- ["SY", "redAndPurple"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["So14UIControlStateV", "normal"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setBackgroundImage"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setBackgroundImage"]
+- !private ["So12UIAppearanceP", "setBackgroundImage"]
+- !private ["So21UIAppearanceContainerP", "setBackgroundImage"]
+- !private ["So8UIButtonC", "setBackgroundImage"]
+- !private ["So9UIControlC", "setBackgroundImage"]
+- !private ["So17UICoordinateSpaceP", "setBackgroundImage"]
+- !private ["So13UIDynamicItemP", "setBackgroundImage"]
+- !private ["So18UIFocusEnvironmentP", "setBackgroundImage"]
+- !private ["So11UIFocusItemP", "setBackgroundImage"]
+- !private ["So20UIFocusItemContainerP", "setBackgroundImage"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So24UILargeContentViewerItemP", "setBackgroundImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "setBackgroundImage"]
+- !private ["So11UIResponderC", "setBackgroundImage"]
+- !private ["So30UIResponderStandardEditActionsP", "setBackgroundImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setBackgroundImage"]
+- !private ["So18UITraitEnvironmentP", "setBackgroundImage"]
+- !private ["So23UIUserActivityRestoringP", "setBackgroundImage"]
+- !private ["So6UIViewC", "setBackgroundImage"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "Bool"]
+- !private ["22TemplateHelperSiddhant11VmaxUtilityV", "Bundle"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "Ctabuttoncolorstyle"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "DEFAULT_BG_COLOR"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "DEFAULT_BUTTON_BG_COLOR"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "DEFAULT_SKIP_TIME"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "DEFAULT_TEXT_COLOR"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "HEX_PATTERN"]
+- !private ["22TemplateHelperSiddhant11VmaxUtilityV", "InfeedAds"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "Int"]
+- !private ["22TemplateHelperSiddhant11VmaxUtilityV", "InterstitialImagesViewController"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "String"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "UIButton"]
+- !private ["22TemplateHelperSiddhant11VmaxUtilityV", "UIImage"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "UIView"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "VmaxUtility"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "init"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "isValidColor"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "loadButtonStyle"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "loadButtonStyleImages"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "loadButtonStyleVideo"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "setBackGroundColor"]
+- ["22TemplateHelperSiddhant11VmaxUtilityV", "shared"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setBackgroundImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setBackgroundImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setBackgroundImage"]
+depends-nominal:
+- !private "So8NSBundleC"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- "22TemplateHelperSiddhant19CtabuttoncolorstyleO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- "SY"
+- !private "s10SetAlgebraP"
+- !private "So14UIControlStateV"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "22TemplateHelperSiddhant11VmaxUtilityV"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdSDK.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxNativeAd.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxVideoAd.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdDelegate.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VmaxTracker.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VmaxDataListener.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VmaxAdTemplateListener.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdPartner.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdCustomizer.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdError.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdSettings.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/TemplateHelperSiddhant.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdView.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMAXPageCategory.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMAXSectionCategory.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/build/TemplateHelperSiddhant.build/Debug-iphonesimulator/TemplateHelperSiddhant.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e1b8205f733bde7967157b579cff959b"

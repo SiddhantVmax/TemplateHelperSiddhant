@@ -36,6 +36,7 @@ class InFeedViewAdEnd: UIView {
         super.awakeFromNib()
         makeUserInteraction()
         timer.invalidate()
+        
         timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(timeOver), userInfo: nil, repeats: false)
     }
     
@@ -43,6 +44,13 @@ class InFeedViewAdEnd: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        
+        if infeedAdModel.link?.url == "" && infeedAdModel.link?.fallback == "" {
+            self.ctaButton.isHidden = true
+        }
+        else {
+            self.ctaButton.isHidden = false
+        }
         let ctabuttoncolorstyle = infeedAdModel.assets?.ctabuttoncolorstyle ?? "1"
         
         if let buttonType = Ctabuttoncolorstyle(rawValue: Character(ctabuttoncolorstyle)) {

@@ -1,0 +1,11 @@
+framework module TemplateHelperSiddhant {
+  umbrella header "TemplateHelperSiddhant.h"
+
+  export *
+  module * { export * }
+}
+
+module TemplateHelperSiddhant.Swift {
+    header "TemplateHelperSiddhant-Swift.h"
+    requires objc
+}

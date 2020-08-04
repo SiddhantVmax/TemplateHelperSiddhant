@@ -28,15 +28,7 @@ struct AssetsModel: Codable {
     var imagemain: String?
     var adoffset: String?
     var ctabuttoncolorstyle: String?
-        
-    //    1. Gradient - Green & Yellow
-    //    2. Gradient - Orange & Yellow
-    //    3. Gradient - Purple & Orange
-    //    4. Gradient - Purple & Blue
-    //    5. Gradient - Green & Blue
-    //    6. Gradient - Red & Purple (Original)CTA button
-        
-//    let CTA_BUTTON_STYLE_GRADIENT_GREEN_YELLOW = 1
+    var video: String?
 }
 
 

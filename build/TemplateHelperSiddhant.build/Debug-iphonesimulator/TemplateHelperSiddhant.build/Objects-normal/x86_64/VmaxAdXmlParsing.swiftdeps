@@ -1,0 +1,467 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VmaxAdXmlParsing"
+provides-nominal:
+- "22TemplateHelperSiddhant16VmaxAdXmlParsingC"
+provides-member:
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", ""]
+provides-dynamic-lookup:
+- "currentElement"
+- "parser"
+- "setVastAd"
+- "setXmlString"
+- "shared"
+- "vastAdModel"
+- "xmlString"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Data"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "VastAdModel"
+- "VmaxAdXmlParsing"
+- "XMLParser"
+- "XMLParserDelegate"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", "append"]
+- !private ["SK", "contains"]
+- !private ["SK", "data"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "VastAdModel"]
+- ["s7CVarArgP", "VmaxAdXmlParsing"]
+- ["s7CVarArgP", "XMLParser"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "currentElement"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "parse"]
+- ["s7CVarArgP", "parser"]
+- ["s7CVarArgP", "parserDidEndDocument"]
+- ["s7CVarArgP", "parserDidStartDocument"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "vastAdModel"]
+- !private ["s7CVarArgP", "xmlString"]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "data"]
+- !private ["Sl", "init"]
+- !private ["SL", "contains"]
+- !private ["SL", "data"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "VastAdModel"]
+- ["s28CustomDebugStringConvertibleP", "VmaxAdXmlParsing"]
+- ["s28CustomDebugStringConvertibleP", "XMLParser"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "currentElement"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "parse"]
+- ["s28CustomDebugStringConvertibleP", "parser"]
+- ["s28CustomDebugStringConvertibleP", "parserDidEndDocument"]
+- ["s28CustomDebugStringConvertibleP", "parserDidStartDocument"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "vastAdModel"]
+- !private ["s28CustomDebugStringConvertibleP", "xmlString"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "VastAdModel"]
+- ["s23CustomStringConvertibleP", "VmaxAdXmlParsing"]
+- ["s23CustomStringConvertibleP", "XMLParser"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "ascii"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "currentElement"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "parse"]
+- ["s23CustomStringConvertibleP", "parser"]
+- ["s23CustomStringConvertibleP", "parserDidEndDocument"]
+- ["s23CustomStringConvertibleP", "parserDidStartDocument"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "vastAdModel"]
+- !private ["s23CustomStringConvertibleP", "xmlString"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["Se", "contains"]
+- !private ["Se", "data"]
+- !private ["Se", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "contains"]
+- !private ["SE", "data"]
+- !private ["SE", "init"]
+- !private ["SS10FoundationE8EncodingV", "ascii"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "String"]
+- ["SQ", "VastAdModel"]
+- ["SQ", "VmaxAdXmlParsing"]
+- ["SQ", "XMLParser"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "ascii"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "currentElement"]
+- !private ["SQ", "data"]
+- !private ["SQ", "delegate"]
+- ["SQ", "init"]
+- !private ["SQ", "parse"]
+- ["SQ", "parser"]
+- ["SQ", "parserDidEndDocument"]
+- ["SQ", "parserDidStartDocument"]
+- !private ["SQ", "print"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "vastAdModel"]
+- !private ["SQ", "xmlString"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "contains"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "String"]
+- ["SH", "VastAdModel"]
+- ["SH", "VmaxAdXmlParsing"]
+- ["SH", "XMLParser"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "ascii"]
+- !private ["SH", "contains"]
+- !private ["SH", "currentElement"]
+- !private ["SH", "data"]
+- !private ["SH", "delegate"]
+- ["SH", "init"]
+- !private ["SH", "parse"]
+- ["SH", "parser"]
+- ["SH", "parserDidEndDocument"]
+- ["SH", "parserDidStartDocument"]
+- !private ["SH", "print"]
+- !private ["SH", "utf8"]
+- !private ["SH", "vastAdModel"]
+- !private ["SH", "xmlString"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So16NSMutableCopyingP", "data"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "VastAdModel"]
+- ["So8NSObjectC", "VmaxAdXmlParsing"]
+- ["So8NSObjectC", "XMLParser"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "contains"]
+- ["So8NSObjectC", "currentElement"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "parse"]
+- ["So8NSObjectC", "parser"]
+- ["So8NSObjectC", "parserDidEndDocument"]
+- ["So8NSObjectC", "parserDidStartDocument"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "setVastAd"]
+- ["So8NSObjectC", "setXmlString"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "vastAdModel"]
+- ["So8NSObjectC", "xmlString"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "VastAdModel"]
+- ["So8NSObjectP", "VmaxAdXmlParsing"]
+- ["So8NSObjectP", "XMLParser"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "currentElement"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "parse"]
+- ["So8NSObjectP", "parser"]
+- ["So8NSObjectP", "parserDidEndDocument"]
+- ["So8NSObjectP", "parserDidStartDocument"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "vastAdModel"]
+- !private ["So8NSObjectP", "xmlString"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So8NSStringC", "contains"]
+- !private ["So8NSStringC", "data"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "data"]
+- !private ["Sm", "init"]
+- !private ["SY", "ascii"]
+- !private ["SY", "utf8"]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "data"]
+- !private ["ST", "init"]
+- !private ["SS", "contains"]
+- !private ["SS", "data"]
+- !private ["SS", "init"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "data"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "complete"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "firstQuartile"]
+- ["22TemplateHelperSiddhant11VastAdModelV", "init"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "midpoint"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "mute"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "pause"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "resume"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "skippableStateChange"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "startUrl"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "thirdQuartile"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "unmute"]
+- !private ["22TemplateHelperSiddhant11VastAdModelV", "videoUrl"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "Data"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "String"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "VastAdModel"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "VmaxAdXmlParsing"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "XMLParser"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "currentElement"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "deinit"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "init"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "parser"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "parserDidEndDocument"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "parserDidStartDocument"]
+- !private ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "print"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "setVastAd"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "setXmlString"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "shared"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "vastAdModel"]
+- ["22TemplateHelperSiddhant16VmaxAdXmlParsingC", "xmlString"]
+- !private ["So11NSXMLParserC", "delegate"]
+- ["So11NSXMLParserC", "init"]
+- !private ["So11NSXMLParserC", "parse"]
+- !private ["So19NSXMLParserDelegateP", "String"]
+- ["So19NSXMLParserDelegateP", "VastAdModel"]
+- ["So19NSXMLParserDelegateP", "VmaxAdXmlParsing"]
+- ["So19NSXMLParserDelegateP", "XMLParser"]
+- ["So19NSXMLParserDelegateP", ""]
+- !private ["So19NSXMLParserDelegateP", "currentElement"]
+- ["So19NSXMLParserDelegateP", "init"]
+- ["So19NSXMLParserDelegateP", "parser"]
+- ["So19NSXMLParserDelegateP", "parserDidEndDocument"]
+- ["So19NSXMLParserDelegateP", "parserDidStartDocument"]
+- !private ["So19NSXMLParserDelegateP", "print"]
+- !private ["So19NSXMLParserDelegateP", "vastAdModel"]
+- !private ["So19NSXMLParserDelegateP", "xmlString"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "VastAdModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "VmaxAdXmlParsing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "XMLParser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentElement"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parse"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "parser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "parserDidEndDocument"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "parserDidStartDocument"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vastAdModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "xmlString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "VastAdModel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "VmaxAdXmlParsing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XMLParser"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contains"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentElement"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parse"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parser"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parserDidEndDocument"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parserDidStartDocument"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "vastAdModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "xmlString"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "22TemplateHelperSiddhant11VastAdModelV"
+- "22TemplateHelperSiddhant16VmaxAdXmlParsingC"
+- "So11NSXMLParserC"
+- "So19NSXMLParserDelegateP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdSDK.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxNativeAd.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxVideoAd.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdDelegate.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VmaxTracker.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VmaxDataListener.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VmaxAdTemplateListener.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdPartner.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdCustomizer.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdError.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdSettings.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/TemplateHelperSiddhant.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMaxAdView.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMAXPageCategory.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/TemplateHelperSiddhant/VMaxAdSDK/lib/include/VMaxAdSDK/VMAXSectionCategory.h"
+- "/Users/admin_vserv/zee/TemplateHelperSiddhant/build/TemplateHelperSiddhant.build/Debug-iphonesimulator/TemplateHelperSiddhant.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e40514643c148f33c4221b22cc191131"
