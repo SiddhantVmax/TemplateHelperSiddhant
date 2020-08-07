@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   
 
   spec.name         = "TemplateHelperSiddhant"
-  spec.version      = "0.0.13"
+  spec.version      = "0.0.14"
   spec.summary      = "siddhant demo frame work for something good yo it will be good"
 
   
@@ -26,14 +26,14 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :git => "https://github.com/SiddhantVmax/TemplateHelperSiddhant.git", :tag => "0.0.13" }
+  spec.source       = { :git => "https://github.com/SiddhantVmax/TemplateHelperSiddhant.git", :tag => "0.0.14" }
 
 
   
 
   #spec.source_files  = "TemplateHelperSiddhant"
   spec.ios.deployment_target = "12.0"
-  spec.ios.vendored_frameworks = "TemplateHelperSiddhant.framework"
+  spec.ios.vendored_frameworks = "TemplateHelperSiddhant/TemplateHelperSiddhant.framework"
   
 
   
