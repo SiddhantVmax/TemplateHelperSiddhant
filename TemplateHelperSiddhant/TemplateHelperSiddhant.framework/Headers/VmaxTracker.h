@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)logEvent:(NSString *)eventId;
 
-- (void)onClick;
+- (void)onClick:(void (^)(void))completionBlock;
 
 - (void)setClickControl:(NSInteger)enableClickControl;
 

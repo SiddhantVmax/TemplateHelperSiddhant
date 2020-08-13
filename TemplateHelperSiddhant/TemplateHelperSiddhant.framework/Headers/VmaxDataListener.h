@@ -43,6 +43,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)onAdElementClicked:(VmaxAdAsset)typeClicked vmaxAdView:(VMaxAdView *)vmaxAdView;
 - (void)onAdCloseLoaded:(VMaxAdView *)vmaxAdView;
 - (void)onAdSkipables:(VMaxAdView *)vmaxAdView;
+- (void)onMediaStarted:(VMaxAdView *)vmaxAdView;
+- (void)onMediaEnded:(VMaxAdView *)vmaxAdView;
+- (void)onAdClicked:(VMaxAdView *)vmaxAdView;  //zeeShorts Changes 0.0.2
+
 @end
 NS_ASSUME_NONNULL_END
 
